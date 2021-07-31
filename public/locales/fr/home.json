@@ -1,0 +1,14 @@
+{
+  "seo": {
+    "title": "Titre - FR",
+    "description": "Description - FR",
+    "contactPoints": [
+      {
+        "telephone": "+1-222-333-4444",
+        "contactType": "customer service",
+        "areaServed": ["US", "CA"],
+        "availableLanguage": ["English", "French"]
+      }
+    ]
+  }
+}

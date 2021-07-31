@@ -1,10 +1,34 @@
-# nextjs-starter
+# nextjs-starter project
 
 A starter project for Next.js with lots of features
 
+## Recommended config
+
+### Adding VSCode Autosave
+
+Install `Prettier - Code formatter`, and in `.vscode/settings.json`, add:
+
+```
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
+```
+
 ## Getting Started
 
-First, run the development server:
+For development, create a .env.development
+
+```
+  // General
+  DOMAIN_NAME=required (ex: clinia.com)
+  APP_NAME=required (ex: Clinia
+
+  // Google Analytics
+  GOOGLE_ANALYTICS_TRACKING_CODE=optional
+```
+
+Then, run the development server:
 
 ```bash
 yarn install
@@ -39,13 +63,26 @@ Default support for:
 - [Flexbox Grid CSS Classes](http://flexboxgrid.com/)
 - [Fontawesome Icons](https://fontawesome.com/v5.15/how-to-use/on-the-web/referencing-icons/basic-use)
 
+### Generate Favicons
+
+Use a [Favicon Generator](https://realfavicongenerator.net/) to create required files and add to `/public/` folder.
+
 ## Learn More
 
 To learn more, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - Next.js features and API.
+### Next.js libraries
 
-Components
+- [Next.js Documentation](https://nextjs.org/docs) - Next.js features and API.
+- [Next.js SEO](https://github.com/garmeeh/next-seo) - Plugin that makes managing your SEO easier in Next.js projects.
+- [Next-i18Next](https://github.com/isaachinman/next-i18next) - Translation for Next.js apps.
+
+### Server
+
+- [Express](https://github.com/expressjs/express) - Minimalist web framework for node.
+- [Helmet](https://github.com/helmetjs/helmet) - Secure Express apps by setting various HTTP headers.
+
+### Components
 
 - [Font Awesome Documentation](https://fontawesome.com/v5.15/how-to-use/on-the-web/referencing-icons/basic-use) - Vector icons and social logos
 - [Bulma Documentation](https://bulma.io/documentation/) - Ready-to-use frontend components
