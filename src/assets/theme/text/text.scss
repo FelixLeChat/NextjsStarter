@@ -1,0 +1,102 @@
+html {
+  // Used to convert 1rem = 10px
+  // Based on http://getskeleton.com/
+  font-size: 62.5%;
+}
+
+h1,
+.title {
+  font-family: $family-serif;
+  font-size: $h1-font-size - 1rem;
+  font-weight: 300;
+  margin-bottom: $h1-margin-bottom;
+  line-height: $h1-line-height;
+  color: $title;
+
+  @include breakpoint(medium up) {
+    font-size: $h1-font-size;
+  }
+}
+
+h2 {
+  font-family: $family-sans-serif;
+  font-size: $h2-font-size - 0.6rem;
+  font-weight: 300;
+  margin-bottom: $h2-margin-bottom;
+  line-height: $h2-line-height;
+  color: $title;
+
+  @include breakpoint(medium up) {
+    font-size: $h2-font-size;
+  }
+}
+
+h3 {
+  font-family: $family-sans-serif;
+  font-size: $h3-font-size - 0.4rem;
+  font-weight: 300;
+  margin-bottom: $h3-margin-bottom;
+  line-height: $h3-line-height;
+  color: $title;
+
+  @include breakpoint(medium up) {
+    font-size: $h3-font-size;
+  }
+}
+
+h4 {
+  font-family: $family-sans-serif;
+  font-size: $h4-font-size - 0.2rem;
+  font-weight: 300;
+  margin-bottom: $h4-margin-bottom;
+  line-height: $h4-line-height;
+  color: $title;
+
+  @include breakpoint(medium up) {
+    font-size: $h4-font-size;
+  }
+}
+
+.quote {
+  font-family: $family-serif-alt;
+  font-size: $size-large + 0.4rem;
+  color: $text;
+}
+
+//--------------- Font Size ---------------//
+.is-xsmall {
+  font-size: $font-size-xsmall;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-text-stroke: 0.1px rgba(51, 51, 51, 0.3);
+}
+
+.is-small {
+  font-size: $font-size-small;
+}
+
+.is-medium {
+  font-size: $font-size-medium;
+}
+
+.is-large {
+  font-size: $size-large;
+  line-height: $global-line-height;
+}
+
+.is-title {
+  font-size: $h1-font-size;
+}
+
+.is-xlarge {
+  font-size: $font-size-xlarge;
+}
+
+//--------------- Font Weight ---------------//
+.is-bold {
+  font-weight: bold;
+}
+
+.is-hoverable {
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+// Font Loading scss. Ideal to use when loading custom fonts included in the project
+
+@font-face {
+  font-family: "Fellix";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/font/Fellix-Regular.woff2") format("woff2"),
+    url("/font/Fellix-Regular.woff") format("woff"),
+    url("/font/Fellix-Regular.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "Fellix";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/font/Fellix-Bold.woff2") format("woff2"),
+    url("/font/Fellix-Bold.woff") format("woff"),
+    url("/font/Fellix-Bold.eot?#iefix") format("embedded-opentype");
+}

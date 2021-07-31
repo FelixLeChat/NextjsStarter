@@ -1,0 +1,88 @@
+//--------------- Screen Size ---------------//
+$small: 0;
+$medium: 640px;
+$large: 1024px;
+$xlarge: 1200px;
+$xxlarge: 1440px;
+
+//--------------- Color ---------------//
+// Named using https://chir.ag/projects/name-that-color/
+$mine-shaft-grey: #282828;
+$terracotta-red: #e66157;
+
+//--------------- Shadow ---------------//
+$shadow-color: rgba(48, 66, 87, 0.08);
+$shadow: 0 2px 15px $shadow-color;
+$shadow-card: 0 2px 4px $shadow-color;
+$shadow-card-hover: 0 20px 40px -10px $shadow-color,
+  0 10px 20px 4px $shadow-color;
+
+//--------------- Text ---------------//
+$family-sans-serif: "Fellix", "Trebuchet MS", Helvetica, sans-serif;
+$family-serif: "Hahmlet", "Times New Roman", Times, serif;
+$family-serif-alt: "Merriweather", "Times New Roman", Times, serif;
+$global-line-height: 1.2;
+// Text color
+$text: $mine-shaft-grey;
+$link: $mine-shaft-grey;
+$title: $mine-shaft-grey;
+// Text sizes
+$size-title: 2rem;
+$size-xlarge: 2.5rem;
+$size-large: 2rem;
+$size-normal: 1.6rem;
+$size-medium: 1.4rem;
+$size-small: 1.2rem;
+$size-xsmall: 1rem;
+$font-size-xlarge: $size-xlarge;
+$font-size-large: $size-large;
+$font-size-medium: $size-medium;
+$font-size-small: $size-small;
+$font-size-xsmall: $size-xsmall;
+
+// Body
+$body-font-size: $size-normal;
+// H1
+$h1-large-font-size: 8rem;
+$h1-font-size: 6rem;
+$h1-margin-bottom: 24px;
+$h1-line-height: $global-line-height;
+// H2
+$h2-font-size: 3.6rem;
+$h2-margin-bottom: 24px;
+$h2-line-height: $global-line-height;
+// H3
+$h3-font-size: 2.5rem;
+$h3-margin-bottom: 20px;
+$h3-line-height: $global-line-height;
+// H4
+$h4-font-size: 2rem;
+$h4-margin-bottom: 15px;
+$h4-line-height: $global-line-height;
+
+//--------------- Margin ---------------//
+// Margin Utils
+$xsmall-margin: 8px;
+$small-margin: 16px;
+$default-margin: 30px;
+$medium-margin: 50px;
+$large-margin: 115px;
+
+//--------------- Borders ---------------//
+$radius: 4px;
+$separator-border-color: rgba(61, 81, 84, 0.2);
+
+//--------------- Components ---------------//
+$box-shadow: $shadow;
+$box-padding: 40px;
+$box-radius: $radius;
+
+//--------------- Layout ---------------//
+$body-overflow-y: auto;
+// Section (Flexboxgrid)
+$section-side-padding: 20px;
+$section-padding-small: 50px $section-side-padding;
+$section-padding-medium: 80px $section-side-padding;
+$section-padding: 100px $section-side-padding;
+$section-padding-medium: 120px $section-side-padding;
+$section-padding-large: 180px $section-side-padding;
