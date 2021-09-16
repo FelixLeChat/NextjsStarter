@@ -1,0 +1,22 @@
+// IE 10+
+@mixin ie-10 {
+
+  @media screen and (-ms-high-contrast: active),
+  (-ms-high-contrast:none) {
+    @content;
+  }
+}
+
+// Edge
+@mixin edge {
+  @supports (-ms-ime-align:auto) {
+    @content;
+  }
+}
+
+// Firefox
+@mixin firefox {
+  @supports (-moz-appearance:none) {
+    @content;
+  }
+}

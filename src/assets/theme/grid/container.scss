@@ -1,0 +1,16 @@
+.section {
+  overflow: hidden;
+  padding: $section-padding-small;
+
+  @include breakpoint(medium only) {
+    padding: $section-padding-medium;
+  }
+
+  @include breakpoint(large up) {
+    padding: $section-padding;
+  }
+
+  &.is-small-section {
+    padding: $section-padding-small;
+  }
+}

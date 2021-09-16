@@ -1,0 +1,16 @@
+{
+  "extends": ["next", "next/core-web-vitals"],
+  "rules": {
+    "import/extensions": ["off"]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx", ".txt"]
+      }
+    },
+    "react": {
+      "version": "detect"
+    }
+  }
+}

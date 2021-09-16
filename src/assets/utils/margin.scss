@@ -1,0 +1,155 @@
+.has-margin {
+  &-bottom {
+    margin-bottom: $default-margin;
+
+    &\@md-down {
+      @include breakpoint(medium down) {
+        margin-bottom: $default-margin;
+      }
+    }
+
+    &\@sm-down {
+      @include breakpoint(small down) {
+        margin-bottom: $default-margin;
+      }
+    }
+  }
+  &-top {
+    margin-top: $default-margin;
+
+    &\@md-down {
+      @include breakpoint(medium down) {
+        margin-top: $default-margin;
+      }
+    }
+
+    &\@sm-down {
+      @include breakpoint(small down) {
+        margin-top: $default-margin;
+      }
+    }
+  }
+  &-left {
+    margin-left: $default-margin;
+  }
+
+  &-xsmall {
+    &-bottom {
+      margin-bottom: $xsmall-margin;
+    }
+    &-top {
+      margin-top: $xsmall-margin;
+
+      &\@md-down {
+        @include breakpoint(medium down) {
+          margin-top: $xsmall-margin;
+        }
+      }
+
+      &\@sm-down {
+        @include breakpoint(small down) {
+          margin-top: $xsmall-margin;
+        }
+      }
+    }
+  }
+
+  &-small {
+    &-bottom {
+      margin-bottom: $small-margin;
+    }
+    &-top {
+      margin-top: $small-margin;
+
+      &\@md-down {
+        @include breakpoint(medium down) {
+          margin-top: $small-margin;
+        }
+      }
+
+      &\@sm-down {
+        @include breakpoint(small down) {
+          margin-top: $small-margin;
+        }
+      }
+    }
+  }
+
+  &-medium {
+    &-bottom {
+      margin-bottom: $medium-margin;
+    }
+    &-top {
+      margin-top: $medium-margin;
+
+      &\@md-down {
+        @include breakpoint(medium down) {
+          margin-top: $medium-margin;
+        }
+      }
+
+      &\@sm-down {
+        @include breakpoint(small down) {
+          margin-top: $medium-margin;
+        }
+      }
+
+      &\@lg-up {
+        @include breakpoint(large up) {
+          margin-top: $medium-margin;
+        }
+      }
+    }
+  }
+
+  &-large {
+    &-bottom {
+      margin-bottom: $large-margin;
+
+      &\@md-down {
+        @include breakpoint(medium down) {
+          margin-bottom: $large-margin;
+        }
+      }
+
+      &\@sm-down {
+        @include breakpoint(small down) {
+          margin-bottom: $large-margin;
+        }
+      }
+
+      &\@md-up {
+        @include breakpoint(medium up) {
+          margin-bottom: $large-margin;
+        }
+      }
+
+      &\@lg-up {
+        @include breakpoint(large up) {
+          margin-bottom: $large-margin;
+        }
+      }
+    }
+    &-top {
+      margin-top: $large-margin;
+
+      &\@md-down {
+        @include breakpoint(medium down) {
+          margin-top: $large-margin;
+        }
+      }
+
+      &\@sm-down {
+        @include breakpoint(small down) {
+          margin-top: $large-margin;
+        }
+      }
+
+      &\@md-up {
+        @include breakpoint(medium up) {
+          margin-top: $large-margin;
+        }
+      }
+    }
+  }
+}
